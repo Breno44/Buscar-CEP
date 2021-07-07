@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(132, 132, 255);
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+}
+
+.container {
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.form__group-control {
+    width: 80%;
+    margin: 15px auto;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.form__group-label {
+    margin-left: 10%;
+}

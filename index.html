@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Busca Cep</title>
+</head>
+<body>
+    <h1><strong>Buscar CEP</strong></h1>
+    <section class="container">
+        <form>
+            <div class="form__group">
+                <label for="cep" class="form__group-label">CEP</label>
+                <input type="text" class="form__group-control" maxlength="9" id="cep"> 
+                <small class="form__group-label">00000-000</small>
+            </div>
+            <div class="form__group">
+                <label for="logradouro" class="form__group-label">Logradouro</label>
+                <input type="text" class="form__group-control" id="logradouro">
+                <small class="form__group-label">Rua.</small>
+            </div>
+            <div class="form__group">
+                <label for="bairro" class="form__group-label">Bairro</label>
+                <input type="text" class="form__group-control" id="bairro">
+                <small class="form__group-label">Bairro</small>
+            </div>
+            <div class="form__group">
+                <label for="localidade" class="form__group-label">Localidade</label>
+                <input type="text" class="form__group-control" id="localidade">
+                <small class="form__group-label">Cidade</small>
+            </div>
+            <div class="form__group">
+                <label for="uf" class="form__group-label">UF</label>
+                <input type="text" class="form__group-control" id="uf">
+                <small class="form__group-label">UF</small>
+            </div>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
